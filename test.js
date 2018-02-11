@@ -11,6 +11,8 @@
     }
 
     console.log(difference);
+    return difference;
   }
 
-  getDifference (10, 1);
+  var myResult = getDifference (10,1);
+  console.log("the difference between the two numbers is " + myResult);
