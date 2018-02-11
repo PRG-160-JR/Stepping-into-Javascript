@@ -1,18 +1,10 @@
-  function getDifference (a,b){
+  function nameCombiner (a,b){
 
-    if (a > b){
+    var fullName = (a + " " + b);
+    console.log(fullName);
+    return fullName;
 
-      var difference = (a - b);
-
-    } else{
-
-      var difference = (b - a);
-
-    }
-
-    console.log(difference);
-    return difference;
   }
 
-  var myResult = getDifference (10,1);
-  console.log("the difference between the two numbers is " + myResult);
+  var myResult = nameCombiner ("Joseph","Rissler");
+  console.log("the full name is " + myResult);
