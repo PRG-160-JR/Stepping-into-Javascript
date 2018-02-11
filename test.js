@@ -1,10 +1,16 @@
-  function getAverage (a,b,c,d,e){
+  function getDifference (a,b){
 
-      var average = (a + b + c + d + e) / 5;
-      console.log(average);
-      return average;
+    if (a > b){
 
+      var difference = (a - b);
+
+    } else{
+
+      var difference = (b - a);
+
+    }
+
+    console.log(difference);
   }
 
-var myResult =  getAverage(7,2,5,20,13);
- console.log("the average is " + myResult);
+  getDifference (10, 1);
