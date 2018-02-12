@@ -1,16 +1,10 @@
-  function consoleNumber(a){
-    var number = a;
-    for(var i = 1; i < number; i++){
-      if(i !== number){
-        console.log(i);
-        continue;
-      }
-      if(i === number){
-        break;
-      }
+  function valueChecker(a){
+    var value = a;
+    if(value = true){
+      return true;
+    }else {
+      return false;
     }
-    console.log(number);
-    return number;
   }
-  var myResult = consoleNumber(13);
-  console.log("this function has counted to " + myResult);
+  var myResult = valueChecker("is this value true?");
+  console.log("this value is " + myResult);
