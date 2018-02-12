@@ -7,4 +7,4 @@
     }
   }
   var myResult = valueChecker("is this value true?");
-  document.log("this value is " + myResult);
+  document.write("this value is " + myResult);
