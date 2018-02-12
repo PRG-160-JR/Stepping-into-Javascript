@@ -1,10 +1,7 @@
-  function valueChecker(a){
-    var value = a;
-    if(value = true){
-      return true;
-    }else {
-      return false;
-    }
+  function stringSplitter(){
+    var str = "This sentence is being split.";
+    var splitString = str.split(" ");
+    return splitString;
   }
-  var myResult = valueChecker("is this value true?");
-  document.write("this value is " + myResult);
+  var myResult = stringSplitter();
+  console.log(myResult);
