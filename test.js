@@ -1,7 +1,2 @@
-  function stringSplitter(){
-    var str = "This sentence is being split.";
-    var splitString = str.split(" ");
-    return splitString;
-  }
-  var myResult = stringSplitter();
-  console.log(myResult);
+    document.getElementById('myChatter').style.color = 'red';
+    document.getElementById('myChatter').innerHTML = "the text color has changed to red!";
