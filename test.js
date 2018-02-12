@@ -1,14 +1,20 @@
-  function determinePrime (a){
-    for(var i = 2; i < a; i++)
-    if(a % i === 0) return false;
-  return a !== 1;
+  function birthYear(a){
+    var age = 2018 - a;
+    if(age >= 21){
+      return true;
+    } else{
+      return false;
+    }
   }
 
-  var myResult = determinePrime(3);
+  var myResult = birthYear(1998);
   if (myResult === false){
-    document.write("this is not a prime number");
+    console.log("You are not old enough to drink in PA");
+    document.write("You are not old enough to drink in PA");
   } else if (myResult === true){
-    document.write("this is a prime number");
+    console.log("You are old enough to drink in PA");
+    document.write("You are old enough to drink in PA");
   } else{
-    document.write("this is not a valid number");
+    console.log("this is not a valid age");
+    document.write("this is not a valid age");
   }
