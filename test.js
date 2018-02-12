@@ -4,5 +4,5 @@
   return a !== 1;
   }
 
-  var myResult = determinePrime(4);
+  var myResult = determinePrime(4):
   console.log("it is " + myResult + " that this is a prime number");
